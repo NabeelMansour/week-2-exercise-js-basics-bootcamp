@@ -90,24 +90,24 @@ String-objektet innehåller en rad olika fördefinierade funktioner. Ni kommer a
 let sentence = "If you're having code problems I feel bad for you son. I got 99 problems, but a glitch ain't one."
 ```
 
-**12** Tilldela variabeln ```name``` ett värde, och använd sedan strängkonkatenering för att stoppa in den i meningen istället för ```N``` .
+**12** Tilldela variabeln ```myName``` ett värde, och använd sedan strängkonkatenering för att stoppa in den i meningen istället för ```N``` .
 
 ```javascript
-let name = '<Ditt namn>' 
+let myName = '<Ditt namn>' 
 `Hej N din gamle knasboll!`
 ```
 
-**13** Gör en *template string* där ```N``` ersätts med variabeln ```name```.
+**13** Gör en *template string* där ```N``` ersätts med variabeln ```myName```.
 
 ```javascript
-let name = '<Ditt namn>' 
+let myName = '<Ditt namn>' 
 `Hej N din gamle knasboll!`
 ```
 
-**14** Gör om uppgift 10, men låt istället användaren själv ange sitt namn med hjälp av .prompt()-funktionen. Skriv sedan ut meningen med hjälp av .alert()-funktionen.
+**14** Gör om uppgift 13, men låt istället användaren själv ange sitt namn med hjälp av .prompt()-funktionen. Skriv sedan ut meningen med hjälp av .alert()-funktionen.
 
 ```javascript
-let name = INPUT från användaren 
+let myName = INPUT från användaren 
 `Hej N din gamle knasboll!`
 ```
 
