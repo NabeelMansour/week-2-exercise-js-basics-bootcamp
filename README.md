@@ -180,18 +180,25 @@ console.log(sentence.replaceAll(',', ' '))
 Innan du ger dig på dessa övningar kan du med fördel besöka MDNs [Math Documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math).
 
 **19** Arunda talet ```1337.51``` *nedåt* till närmaste heltal med hjälp av *Math object*.
+```
 Math.floor(1337.51)
+```
 **20** Arunda talet ```1337.48``` *uppåt* till närmaste heltal med hjälp av *Math object*.
+```
 Math.ceil(1337.48)
-
+```
 **21** Arunda talet ```1337.497``` *till närmaste heltal* med hjälp av *Math object*.
+```
 Math.round(1337.597)
+```
 **22** Slumpa fram ett tal mellan 1 - 100.
+```
 Math.floor(Math.random() * 100) + 1
+```
 ### Selektioner / Villkor
 
 **23** Skriv ett program som frågar användaren efter ett lösenord. Hitta på ett hemligt lösenord och spara det i en variabel. När användaren har skrivit in ett ord ska programmet jämföra med det sparade lösenordet och skriva ut om det var rätt eller inte. Använd en if-sats.
-
+```
 let lösenOrd = 'Arsenal'
 let svarPåLösenOrd = prompt('Gissa det hemlig lösenord? ')
 
@@ -200,9 +207,9 @@ if(svarPåLösenOrd === lösenOrd){
 } else {
   console.log('Fel gissat, försök igen')
 }
-
+```
 **24** Skriv ett program som frågar användaren efter ett tal. Det ska skriva ut om talet är mindre än 100, lika med 100 eller större.
-
+```
 let favoriteNumber = prompt('What is your favorite number? ')
 if(favoriteNumber < 100){
   console.log('talet är mindre än 100')
@@ -211,9 +218,9 @@ if(favoriteNumber < 100){
 } else{
   console.log('talet är större än 100')
 }
-
+```
 **25** För att åka en viss karusell på Liseberg behöver ditt barn vara minst 10 år gammal, och vara längre än 135 cm lång. Skriv ett program där användaren kan ange sitt barns ålder och längd, och ta sedan reda på om barnet får åka karusellen. Levelup: om barnet inte får åkakarusellen, förklara då exakt vilken anledningen är.
-
+```
 let personÅlder = prompt('Hur gammal är du ? ')
 let personLängd = prompt('Hur lång är du i cm ? ')
 
@@ -222,29 +229,33 @@ if(personÅlder >= 10 && personLängd >= 135){
 } else if(!(personÅlder >= 10 && personLängd >= 135)){
   console.log('Du måste vara 10 år gammal och 135cm lång')
 }
-
+```
 ### Iterationer
 
 **26** Skapa en ```for-loop``` som skriver ut talen 1 till 100 i konsollen.
+```
 for(let i = 1; i <= 100; i++){
   console.log(i)
 }
-
+```
 **27** Gör om övning 26, men använd denna gången en ```while-loop```. Vilka justerngar behöver du göra?
+```
 let i = 0;
 
 while(i <= 100){
   console.log(i)
   i++
 }
-
+```
 **28** Skapa en ```for-loop``` så körs 100 gånger. Inuti varje loop skall du slumpa fram ett tal mellan 1 - 100. Räkna sedan ut medelvärdet av dina 100 slumpningar.
+```
 for(let i = 0; i <= 100; i++){
   let randomNum = Math.floor(Math.random() * 100) + 1 / 100
   console.log(randomNum)
 }
-
+```
 **29** Skapa en ```while-loop``` som körs tills du lyckats slumpa fram ett valt tal mellan 1 - 100. Levelup: håll koll på hur många gånger du slumpat och skriv sedan ut detta i konsollen.
+```
 let myNum = 5
 let guesses = 0;
 
@@ -256,11 +267,11 @@ while(true){
   }
 }
 console.log(`You've had ${guesses} guesses`)
-
+```
 **30** Be användaren mata in sitt födelsedatum enligt (YYYYMMDD-XXXX). Använd en ```while-loop``` som körs tills användaren har angett korrekt antal tecken. Skriv sedan ut användarens fyra sista siffror i konsollen.
-
+```
 let födelseDatum = prompt("Ange födelsedatum i formatet (YYYYMMDD-XXXX)");
-
+```
 ```javascript
 let correctInput = false;
 while() {
