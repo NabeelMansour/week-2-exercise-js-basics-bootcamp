@@ -38,6 +38,7 @@ let myBool = true
 **5** Hur tar man reda på vad en variabel har för datatyp? Testa på variablerna från övning 4.
 typeof
 **6** Skriv ett program som frågar användaren efter två tal och sparar dem i variabler. Sedan ska det skriva ut talens summa, differens och produkt. Du kan använda dig av .prompt()-funktionen för att ta input från användaren.
+```
 function talRäknare(){
   let förstaTal = Number(prompt('Knappa in ett nummer'))
   let andraTal = Number(prompt('Knappa in ett annat nummer'))
@@ -47,6 +48,7 @@ function talRäknare(){
   console.log(förstaTal * andraTal)
 }
 talRäknare()
+```
 ### Block 
 
 **7** Vilken av följande syntax visar ett ```kodblock```?
