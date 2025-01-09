@@ -226,7 +226,7 @@ let personLängd = prompt('Hur lång är du i cm ? ')
 
 if(personÅlder >= 10 && personLängd >= 135){
   console.log('Du kan åka karusellen')
-} else if(!(personÅlder >= 10 && personLängd >= 135)){
+} else {
   console.log('Du måste vara 10 år gammal och 135cm lång')
 }
 ```
