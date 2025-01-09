@@ -249,10 +249,12 @@ while(i <= 100){
 ```
 **28** Skapa en ```for-loop``` så körs 100 gånger. Inuti varje loop skall du slumpa fram ett tal mellan 1 - 100. Räkna sedan ut medelvärdet av dina 100 slumpningar.
 ```javascript
+let sum = 
 for(let i = 0; i <= 100; i++){
-  let randomNum = Math.floor(Math.random() * 100) + 1 / 100
-  console.log(randomNum)
+  let randomNum = Math.floor(Math.random() * 100) + 1 );
+  sum = sum + random
 }
+console.log('Summan blir: ', sum / 100)
 ```
 **29** Skapa en ```while-loop``` som körs tills du lyckats slumpa fram ett valt tal mellan 1 - 100. Levelup: håll koll på hur många gånger du slumpat och skriv sedan ut detta i konsollen.
 ```javascript
@@ -260,7 +262,7 @@ let myNum = 5
 let guesses = 0;
 
 while(true){
-  let randomNum = Math.floor(Math.random() * 100) + 1
+  let randomNum = Math.floor(Math.random() * 100) + 1)
   guesses++
   if(randomNum === myNum){
     break
