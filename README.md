@@ -30,9 +30,11 @@ let är block scoped, medan var är function scoped så att den är tillgänglig
 ```
 
 **4** Skapa variabeln ```myStr``` som du tilldelar en sträng, ```myNum``` som du tilldelar ett nummer, och ```myBool``` som du tilldelar en boolean.
+```
 let myStr = 'Hello'
 let myNum = 10
 let myBool = true
+```
 **5** Hur tar man reda på vad en variabel har för datatyp? Testa på variablerna från övning 4.
 typeof
 **6** Skriv ett program som frågar användaren efter två tal och sparar dem i variabler. Sedan ska det skriva ut talens summa, differens och produkt. Du kan använda dig av .prompt()-funktionen för att ta input från användaren.
